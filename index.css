@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(244, 38%, 16%);
+}
+.flex-container{
+    display: flex;
+    width: 70%;
+    margin: 12em;
+    min-height: auto;
+    color: azure;
+}
+.first{
+    padding: 4em 6em 4em 4em;
+    background-color:hsl(233, 47%, 7%);
+}
+.get{
+    font:1.7em "Inter";
+    font-weight: 700;
+}
+.discover{
+    font: 0.9em "Lexend Deca";
+    padding-top:3em;
+}
+.second{
+    margin-right: 0%;
+    color: hsl(244, 38%, 16%);
+
+}
+.below{
+    justify-content:space-between;
+    display: flex;
+    padding-top: 3em;
+    font-weight: 700;
+    font-size: 1.40em;
+}
+.under{
+    justify-content:space-between;
+    display: flex;
+}
