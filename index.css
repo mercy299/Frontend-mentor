@@ -2,7 +2,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: hsl(244, 38%, 16%);
+    background-color: hsl(233, 47%, 7%);
+}
+.wrapper{
+    height:100vh;
 }
 .flex-container{
     display: flex;
@@ -12,7 +15,7 @@ body{
 }
 .first{
     padding: 4em 6em 4em 4em;
-    background-color:hsl(233, 47%, 7%);
+    background-color:hsl(244, 38%, 16%);
 }
 .get{
     font:1.7em "Inter";
@@ -24,6 +27,8 @@ body{
 }
 .second{
     color: hsl(244, 38%, 16%);
+    height: auto;
+    height: 100%;
 }
 .below{
     justify-content: space-between;
