@@ -6,7 +6,6 @@ body{
 }
 .flex-container{
     display: flex;
-    width: 70%;
     margin: 12em;
     min-height: auto;
     color: azure;
@@ -24,16 +23,14 @@ body{
     padding-top:3em;
 }
 .second{
-    margin-right: 0%;
     color: hsl(244, 38%, 16%);
-
 }
 .below{
-    justify-content:space-between;
+    justify-content: space-between;
     display: flex;
     padding-top: 3em;
     font-weight: 700;
-    font-size: 1.40em;
+    font-size: 1.20em;
 }
 .under{
     justify-content:space-between;
